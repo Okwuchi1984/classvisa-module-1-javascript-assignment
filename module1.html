@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    
+
+<script>
+// Assignment 1
+
+for(let i = 25; i >= 0; i -= 5){
+    console.log(i);
+}
+
+// Assignment 2
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+for(let i = 0; i < people.length; i++) {
+    console.log(i, people[i]);
+}
+ // Assignment 3
+printInstructions = [
+   "Remove the plastic wrapper",
+  "Microwave 45 seconds",
+  "Let cool",
+   "Enjoy!",
+];
+
+for(let i = 0; i < printInstructions.length; i++) {
+    const step = printInstructions[i];
+    console.log(`Step ${i + 1}`)
+    for(let h = 0; h < step.length; h++){
+    console.log(step[h]);
+    }
+}
+
+// Assignment 4
+
+let input = prompt("Are you there?");
+while(true) {
+    input = prompt(input);
+    if(input.toLowerCase() ==="yes i am")break;
+}
+console.log("That's good! Please come in");
+
+
+    
+
+
+</script>
+</body>
+</html>
